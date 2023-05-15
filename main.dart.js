@@ -53625,7 +53625,7 @@ var $async$CH=A.B(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 l=t.N
 s=7
-return A.K(A.aVv(A.hB("http://shardingstegano.swatitech.com:8070/register-key/?pub_key="+a,0,null),null,A.az(["Content-Type","application/json"],l,l)),$async$CH)
+return A.K(A.aVv(A.hB("https://shardingstegano.swatitech.com:8070/register-key/?pub_key="+a,0,null),null,A.az(["Content-Type","application/json"],l,l)),$async$CH)
 case 7:n=c
 l=n
 m=B.af.l1(0,A.aI2(A.aGf(l.e).c.a.i(0,"charset")).ed(0,l.w),null)
@@ -53653,7 +53653,7 @@ x4(a,b){return this.asP(a,b)},
 asP(a,b){var s=0,r=A.F(t.B),q,p=2,o,n,m,l,k,j,i,h
 var $async$x4=A.B(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
-n=A.aLe("POST",A.hB("http://shardingstegano.swatitech.com:8070/register-di/?yolo=1",0,null))
+n=A.aLe("POST",A.hB("https://shardingstegano.swatitech.com:8070/register-di/?yolo=1",0,null))
 n.y.push(A.aLd("file",a,b))
 s=7
 return A.K(J.aK7(n),$async$x4)
@@ -53685,7 +53685,7 @@ wD(a){return this.aqZ(a)},
 aqZ(a){var s=0,r=A.F(t.B),q,p=2,o,n,m,l,k,j,i,h,g
 var $async$wD=A.B(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
-n=A.aLe("POST",A.hB("http://shardingstegano.swatitech.com:8070/compareV2/?yolo=1&user_id=123",0,null))
+n=A.aLe("POST",A.hB("https://shardingstegano.swatitech.com:8070/compareV2/?yolo=1&user_id=123",0,null))
 j=n.y
 i=new A.aB(Date.now(),!1).l(0)
 i=A.dt(i,":","")
